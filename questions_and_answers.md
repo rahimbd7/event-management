@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B: `ReferenceError: greetign is not defined`
 
-<i>Write your explanation here</i>
+<i>The greetign has not been declared with any keyword like var, let, or const. Also, assign value as the object is not hoisted. so the answer will be B </i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C: `"12"`
 
-<i>Write your explanation here</i>
+<i>In here 1 is a number and "2" is a string. so the function will perform string concatenation which will be "12". and answer is C</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A: `['🍕', '🍫', '🥑', '🍔']`
 
-<i>Write your explanation here</i>
+<i>In here, the food array was not manipulated. so the answer will be as it was the value of food. so the answer will be A</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B: `Hi there, undefined`
 
-<i>Write your explanation here</i>
+<i>At the time of function calling we didn't provide any name parameter value.  In javascript, if we don't assign any value to the variable, then by default javascript assigns its value as undefined. so the answer will be B </i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C: 3
 
-<i>Write your explanation here</i>
+<i>At the first iteration num value is 0, in the if condition it is treated as a falsy value, and the count will not increment for the first iteration. it will increment for the next 3 items in the array. so answer is C</i>
 
 </p>
 </details>
